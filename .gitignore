@@ -1,0 +1,9 @@
+.vscode/
+build/
+*.o
+*.bin
+*.elf
+*.exe
+*.ld
+*.map
+*.project
