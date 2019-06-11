@@ -217,7 +217,7 @@ int tictactoe::get_winner() {
     if (row_has_winner(gameboard[0], gameboard[4], gameboard[8]))
         return gameboard[0];
     if (row_has_winner(gameboard[2], gameboard[4], gameboard[6]))
-        return gameboard[3];
+        return gameboard[2];
 
     return -1;
 }
